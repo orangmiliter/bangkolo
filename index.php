@@ -118,7 +118,7 @@ img {
   <img id="myImg" style="width:15%;" align="left">
   <?php
   if (isset($_POST["ip"])){
-    $com = "/usr/bin/nmap --script=vuln -oX tmp/output.xml ". $_POST["ip"];
+    $com = "/usr/bin/nmap --script=vuln -d -oX tmp/output.xml ". $_POST["ip"];
     $tml = "/usr/bin/xsltproc tmp/output.xml -o tmp/output.html";
     $tpdf = "/usr/bin/wkhtmltopdf tmp/output.html output/$(date '+%Y-%m-%d')-". $_POST['ip'] .".pdf";
     $result = shell_exec($com);
