@@ -1,5 +1,5 @@
 # bangkolo 
-Bangkolo App merupakan aplikasi yang berfungsi untuk melakukan identifikasi potensi   celah   keamanan   pada   sistem   transaksi   elektronik   yang   dikembangkan menggunakan   metode   hybrid apps   dengan   memanfaatkan   Nmap Scripting Engine.   Bangkolo   App   memiliki   fitur   melakukan   penmindaian   dengan   tujuan mengidentifikasi   potensi   celah   keamanan.   Hasil   pemindaian   tersebut   berupa laporan   yang   bersifat  helicopter view.  Bangkolo   memiliki   lisensi   yang   selaras dengan kode sumber terbuka, yaitu MIT
+Bangkolo App merupakan aplikasi yang berfungsi untuk melakukan identifikasi potensi   celah   keamanan   pada   sistem   transaksi   elektronik   yang   dikembangkan menggunakan   metode   hybrid apps   dengan   memanfaatkan   Nmap Scripting Engine.   Bangkolo   App   memiliki   fitur   melakukan   pemindaian   dengan   tujuan mengidentifikasi   potensi   celah   keamanan.   Hasil   pemindaian   tersebut   berupa laporan   yang   bersifat  helicopter view.  Bangkolo   memiliki   lisensi   yang   selaras dengan kode sumber terbuka, yaitu MIT
 
 **suport**
 + `LINUX`
@@ -10,11 +10,12 @@ Bangkolo App merupakan aplikasi yang berfungsi untuk melakukan identifikasi pote
 + `node.js`
 + `electronjs`
 + `electron-packager`
++ `wkhtmltopdf`
 
 **Memasang Persaratan**
 + `sudo apt install nmap (ubuntu/debian)`
 + `sudo apt install php- (ubuntu/debian)`
-+ [node.js](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/)
++ [`node.js`](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/)
 + `npm install electron -g`
 + `npm install electron-packager -g`
 
